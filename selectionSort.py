@@ -11,7 +11,8 @@ for j in range(0, len(arr)-1):
             smallest_ind = i
     arr[j], arr[smallest_ind] = arr[smallest_ind], arr[j]
 
-print(arr)
+print("Array is Sorted in ascending order: ")
+print(*arr, sep = " ")
 
 
 
